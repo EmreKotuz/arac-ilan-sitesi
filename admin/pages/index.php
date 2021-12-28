@@ -78,7 +78,7 @@ if (@$_SESSION["girisKontrol"]==1)
     </div>
 <?php
     if (@$_POST["submit"]) {
-        if ($_POST["username"]=="emrekotuz" && $_POST["password"]=="Ek.483133") {
+        if ($_POST["username"]=="kullaniciAdi" && $_POST["password"]=="sifre") {
           $_SESSION["girisKontrol"]=1;//giriş yapmış
           $_SESSION["username"]=$_POST["username"];
           header("Location: tables.php");
